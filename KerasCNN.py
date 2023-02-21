@@ -3,7 +3,6 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 #------------------------------------------------------------------
 #This is a image generator that adapt the images and make them readable for the generator
 datagen = ImageDataGenerator(rescale=1./255)
-
 #This is where he will get the images, with the directory
 img_dir = "/ruta/a/directorio/de/imagenes"
 img_width, img_height = 150, 150
